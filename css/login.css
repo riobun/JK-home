@@ -1,0 +1,51 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.top{
+	height:80px;
+	line-height: 80px;
+	background: #000000;
+	
+}
+
+.top a{
+	color: #E793B4;
+	text-decoration: none;
+}
+
+.top .content{
+	width: 1100px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	font-size: 25px;
+}
+
+.top .content .left span{
+	color: #E793B4;
+	
+}
+
+.top .content .right{
+	display: flex;
+	
+}
+
+.top .content .right .loginModel a{
+	padding: 0 5px;
+}
+
+.bottom{
+	display: flex;
+	justify-content: center;
+	height:600px;
+	background: #E793B4;
+}
+
+.bottom .container{
+	margin: 100px;
+}
+
